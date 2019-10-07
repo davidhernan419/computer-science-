@@ -1,0 +1,33 @@
+// David Hernandez G
+#include <iostream>
+#include <string>
+#include <iomanip>
+using namespace std ;
+int main( )
+{
+// declare all the variables here
+const double month = 12;
+int davidH = davidH;
+double accountBalance,
+anualRate,
+monthlyRate,
+dollarValue;
+
+// display the assignment and your name using a constant
+cout << "Hi profesor Milligan, assignment G by " << davidH << endl;
+// prompt for input using
+cout << " You have " << accountBalance; " dollars in the bank this month " << endl; 
+cout << " and using a rate of " << anualRate; " percent anual interest rate " << endl;
+cout << " that will be 1/12 of that paid each month making the monthly interest rate " << endl;
+cout << " so you will earn " <<dollarValue << " dollars in interest this month from your balance " << endl;
+
+
+// perform the required calculations using assignment statements
+monthlyRate = (anualRate / 100);
+dollarValue = monthlyRate * accountBalance;
+
+// display the calculations to the screen using couts
+
+// remember to put this in visiual studios system("pause") ;
+return 0 ;
+}
